@@ -67,10 +67,8 @@
 {
     if (!_effectView) {
         
-        // 毛玻璃view 视图
         _effectView = [[UIVisualEffectView alloc] initWithEffect:[UIBlurEffect effectWithStyle:UIBlurEffectStyleLight]];
-        // 设置模糊透明度
-        _effectView.alpha = 1.f;
+        _effectView.alpha = 1.f;    // 设置模糊透明度
         _effectView.frame = [UIScreen mainScreen].bounds;
     }
     _effectView.alpha = 1.f;
