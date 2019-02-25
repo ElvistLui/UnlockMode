@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OHJ-ot-0Nf">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="Gt6-9i-1Za">
+            <objects>
+                <viewController id="e2r-LA-ESJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MhJ-F3-1Vs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_test_01" translatesAutoresizingMaskIntoConstraints="NO" id="cyz-7n-ser">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cyz-7n-ser" firstAttribute="top" secondItem="iel-dO-gI9" secondAttribute="top" id="Bby-tc-UiM"/>
+                            <constraint firstItem="iel-dO-gI9" firstAttribute="trailing" secondItem="cyz-7n-ser" secondAttribute="trailing" id="MNz-0l-Twz"/>
+                            <constraint firstAttribute="bottom" secondItem="cyz-7n-ser" secondAttribute="bottom" id="adI-uo-3Cc"/>
+                            <constraint firstItem="cyz-7n-ser" firstAttribute="leading" secondItem="MhJ-F3-1Vs" secondAttribute="leading" id="sUc-QO-EOO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iel-dO-gI9"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="Po9-0R-Y2H"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6dZ-kr-Fex" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1407" y="228"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="ftj-pY-m7f">
+            <objects>
+                <viewController id="Kyt-lH-LuO" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xN4-ef-D3b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_test_00" translatesAutoresizingMaskIntoConstraints="NO" id="eba-Ow-ED7">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9w-kH-FSl">
+                                <rect key="frame" x="0.0" y="129" width="375" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="itA-hN-seA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eba-Ow-ED7" firstAttribute="leading" secondItem="OjK-DO-TbZ" secondAttribute="leading" id="Av4-0r-j5e"/>
+                            <constraint firstItem="OjK-DO-TbZ" firstAttribute="trailing" secondItem="t9w-kH-FSl" secondAttribute="trailing" id="BYy-Vz-wpn"/>
+                            <constraint firstItem="t9w-kH-FSl" firstAttribute="leading" secondItem="OjK-DO-TbZ" secondAttribute="leading" id="Puz-xf-4RP"/>
+                            <constraint firstItem="eba-Ow-ED7" firstAttribute="top" secondItem="OjK-DO-TbZ" secondAttribute="top" id="Q3h-GY-ugl"/>
+                            <constraint firstAttribute="bottom" secondItem="eba-Ow-ED7" secondAttribute="bottom" id="Rb8-dT-HND"/>
+                            <constraint firstItem="t9w-kH-FSl" firstAttribute="leading" secondItem="OjK-DO-TbZ" secondAttribute="leading" id="Rt1-He-29T"/>
+                            <constraint firstItem="t9w-kH-FSl" firstAttribute="trailing" secondItem="OjK-DO-TbZ" secondAttribute="trailing" id="oDc-ay-Qxq"/>
+                            <constraint firstAttribute="trailing" secondItem="eba-Ow-ED7" secondAttribute="trailing" id="xNC-2n-xQ7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OjK-DO-TbZ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="k0R-t3-vXS"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="t9w-kH-FSl" id="BzK-1P-sax"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JwB-vG-z9O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1405.5999999999999" y="-437.63118440779613"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="s75-aq-CIx">
+            <objects>
+                <tabBarController storyboardIdentifier="MainTabbarCtrl" id="OHJ-ot-0Nf" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="q8R-Uh-nTb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Kyt-lH-LuO" kind="relationship" relationship="viewControllers" id="9k8-Ju-pPz"/>
+                        <segue destination="e2r-LA-ESJ" kind="relationship" relationship="viewControllers" id="EJU-V6-7j4"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9SV-1U-XeQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="369" y="-107"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img_test_00" width="533.33331298828125" height="800"/>
+        <image name="img_test_01" width="533.33331298828125" height="800"/>
+    </resources>
+</document>
